@@ -1,10 +1,15 @@
 import React from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <h1 className="text-mainColor text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Header />
+      <Home />
+      <Footer />
+    </div>
   );
 };
 
