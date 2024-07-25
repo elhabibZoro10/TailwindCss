@@ -11,17 +11,20 @@ const Landing = () => {
             />
           </div>
           <div className="text-white text-center">
-            <h1 className="text-[30px] md:text-[40px] font-semibold md-[15px] ">
+            <h1 className="text-[30px] md:text-[40px] font-semibold mb-[15px] ">
               All your files one secure location
               <br />
               accessiblee anywhere.
             </h1>
-            <p className="font-normal text-lg px-[15px] md:w-[600px] max-w-full md:mx-auto ">
+            <p className="font-normal text-lg px-[15px] md:w-[600px] max-w-full mb-[15px] ">
               Le Lorem Ipsum est simplement du faux texte employé dans la
               composition et la mise en page avant impression. Le Lorem Ipsum
               est le faux texte standard
             </p>
           </div>
+          <a className="btn w-[280px] h-[60px] rounded-[30px] element-center text-white font-medium  ">
+            Get Started
+          </a>
         </div>
       </div>
     </section>
