@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+  .container {
+    @apply px-[30px] mx-auto;
+  }
+  .element-center {
+    @apply flex justify-center items-center;
+  }
+}
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
