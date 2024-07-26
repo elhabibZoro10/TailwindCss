@@ -4,8 +4,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        mainColor: "#000",
+        primary: "#67dbda",
       },
+      keyframes: {
+        moveRigth: {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(10px)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+
+      animation: {
+        moveRigth: "moveRigth 1s ease-in-out infinite",
+      },
+
       screens: {
         sm: "576px",
         md: "768px",
